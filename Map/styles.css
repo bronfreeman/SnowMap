@@ -6,11 +6,21 @@ h1.jumbo {
     font-style: italic;
 }
 
-th {
-    color:brown
+table {
+    text-align: center;
+    border: 10px solid black;
+    border-collapse: collapse; 
+    width: 100%;
+    padding: 10px;
+    background-color: yellowgreen;
+    
+  }
+  
+  td, th {
+    border: 1px solid black;
+    color:rgb(73, 0, 0)
 
-}
-table, th, td {
-    border: 1px solid;
-    width: 300px;
-}
+    
+  }
+
+  
